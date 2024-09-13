@@ -14,24 +14,24 @@
 </button>
 
 <style>
-  :global(.light) {
-    color-scheme: light;
-    --btn-bg: red;
-    --btn-fg: #FFF;
-  }
+	:global(.light) {
+		color-scheme: light;
+		--btn-bg: red;
+		--btn-fg: white;
+	}
 
-  :global(.dark) {
-    color-scheme: dark;
-    --btn-bg: blue;
-    --btn-fg: #000
-  }
+	:global(.dark) {
+		color-scheme: dark;
+		--btn-bg: blue;
+		--btn-fg: white;
+	}
 
-  .btn {
-    background-color: var(--btn-bg);
-    color: var(--btn-fg)
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
+	.btn {
+		background-color: var(--btn-bg);
+		color: var(--btn-fg);
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
 </style>

@@ -1,10 +1,10 @@
 <script lang="ts">
 	let { children } = $props();
-	import '../styles/globals.css';
+	import '$lib/globals.css';
 	import { ModeWatcher, toggleMode } from 'mode-watcher';
 </script>
 
-<ModeWatcher />
+<ModeWatcher lightClassNames={['light']} darkClassNames={['dark']} />
 
 <button onclick={toggleMode}>Toggle Mode</button>
 
