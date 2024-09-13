@@ -1,0 +1,19 @@
+@import 'reset.css';
+
+.light {
+  color-scheme: light;
+  --bg: white;
+  --fg: black;
+  color: var(--fg);
+}
+
+.dark {
+  color-scheme: dark;
+  --bg: black;
+  --fg: white;
+  color: var(--fg);
+}
+
+html {
+  background-color: var(--bg);
+}
